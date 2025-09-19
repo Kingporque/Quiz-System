@@ -34,6 +34,7 @@ public class mainpage {
 	String[] op3Str = new String[50];
 	String[] op4Str = new String[50];
 	int id;
+        @SuppressWarnings("Convert2Lambda")
 	public void mainPageView(int id) throws SQLException {
 		this.id=id;
 		questionsArray = new String[25];

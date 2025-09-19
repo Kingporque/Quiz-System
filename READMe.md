@@ -49,3 +49,6 @@ CREATE TABLE userQuestions(id int, quizcode varchar(5), total int);
 CREATE TABLE questions(quizcode varchar(5), question varchar(255), option1 varchar(255), option2 varchar(255), option3 varchar(255), option4 varchar(255)); 
 CREATE TABLE quizquestions(quizcode varchar(5), qno int, opno int);
 ```
+
+Ecerything has reamians unchanged after forking this repo
+DataBase will be changed to postgre on render 
